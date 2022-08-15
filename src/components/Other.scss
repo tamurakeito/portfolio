@@ -1,0 +1,33 @@
+.Other {
+    background: #fafafa;
+    padding: 5px;
+
+    ul {
+        padding: 0.5em 1em 50px 1.5em;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+.List {
+    list-style-type: none;
+    line-height: 1.5;
+    padding: 0.7em 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+    &::before {
+        position: relative;
+        top: -4px;
+        left: -10px;
+      
+        display: inline-block;
+      
+        width: 2px;
+        height: 2px;
+      
+        content: '';
+      
+        border-radius: 100%;
+        background: #000;
+    }
+}

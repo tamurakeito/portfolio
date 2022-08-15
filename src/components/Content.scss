@@ -1,0 +1,40 @@
+.Content {
+    background: #fafafa;
+    padding: 15px 0;
+}
+    
+.CardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.Card {
+    display: block;
+    width: 95%;
+    max-width: 500px;
+    color: #333;
+    font-weight: normal;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+
+    .image-box {
+        background: #fafafa;
+    }
+    .title {
+        font-size: 15px;
+        letter-spacing: 0.2em;
+        padding: 5px 15px;
+    }
+    p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 0px 15px;
+        margin-bottom: 25px;
+    }
+}

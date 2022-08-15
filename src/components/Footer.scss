@@ -1,0 +1,31 @@
+.Footer {
+    padding: 75px 0;
+
+    .ContactBox {
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+  
+.Contact {
+    a {
+        color: #333;
+        display: block;
+    }
+
+    // .mail {
+    //     width: 26px;
+    //     margin: 7.5px;
+    // }
+
+    .qiita,.facebook {
+        width: 35px;
+        margin: 5px;
+    }
+}
