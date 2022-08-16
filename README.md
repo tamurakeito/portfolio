@@ -14,3 +14,4 @@ RewriteRule ^(.+)$ build/index.html [L]
 [参考はこれ](https://qiita.com/shuntaro_tamura/items/28aeade180ea30a19d63)
 
 githubにpushしたら自動でアップロードされるやつやりたい。。
+Lintで綺麗にするやつもやりたい
